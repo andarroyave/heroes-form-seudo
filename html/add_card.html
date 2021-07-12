@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="h-line1">
+            <span>Descuentos 20%</span> 
+        </div>    
+        <div class="title">
+            <img src="../img/logo-tienda.png" alt="">
+            <h1>Heroes</h1>  
+        </div>
+        <div class="h-nav">
+            <a href="contact.html">Contacto</a>
+            <a href="register.html">Registrarme</a>
+            <a href="../index.html">Ingresar</a>
+        </div>
+
+    </header>
+    <main >
+      <section class="add-section-container">
+        <article class="add-article-container">
+            <h2>Añade tu personaje!</h2>
+            <p>Agrega tu personaje favorito completando las opciones.</p>
+            <div class="add-form-container">
+                <form class="add-form" action=""> 
+                    <div class="add-name">       
+                        <label  for="nombre">*Nombre</label>  
+                        <input id="nombre" type="text">
+                    </div> 
+                    
+                    <div class="add-especie">
+                        <label for="especie">*Especie</label>
+                        <select name="especie" id="especie">
+                            <option value="">Especie...</option>
+                            <option value="">Kriptonian</option>
+                            <option value="">Human</option>
+                        </select>
+                    </div> 
+                    <div class="add-date">
+                        <label  for="date">Fecha</label>
+                        <input id="date" type="date">
+                    </div>
+                    <div class="add-file">
+                        <label  for="file">Agregar foto </label>
+                        <input id="file" name="file" type="file">
+                    </div>
+                    <textarea class="add-desc" name="description" id="desc" cols="30" rows="10" placeholder="Descripción"></textarea>
+                    <div class="add-power">
+                        <label for="power">Poderes</label>
+                            <label for="power"><input name="power" type="checkbox">
+                            Volar</label>
+                            <label for="power"><input name="power" type="checkbox">
+                            Super inteligencia</label>
+                            <label for="power"><input name="power" type="checkbox">
+                            Super fuerza</label>
+                            <label for="power"><input name="power" type="checkbox">
+                            Superbilletera</label>
+                            <label for="power"><input name="power" type="checkbox">
+                            Vista de rayo laser</label>
+                            <label for="power"><input name="power" type="checkbox">
+                            Super velocidad</label>
+                        
+                    </div>
+                    <hr class="add-line">     
+                    <div class="add-type">          
+                        <label for="tipo">Tipo de personaje</label>
+                        <label for="tipo"><input name="tipo" type="radio">
+                        Héroe / Heroina</label>
+                        <label for="tipo"><input name="tipo" type="radio">
+                        Villano / Villana</label>
+                    </div> 
+                    <button class="add-button"><a  href="#">Añadir</a></button>
+                </form>
+            </div>
+        </article>
+    </section>        
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html> 
